@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>NC Trip</title>
+            <link rel="stylesheet" href="./result.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+           
+    </head>
+<body>
+    <header class="content">
+                <nav>
+                    <h1 class="name"><i class ="material-icons">flight</i>NC-Trip</h1>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./contact.html" class="btn-success"s>Contact Us</a></li>
+                        <li><div > 
+                            <input type="search" id="destinationInput" placeholder="enter a destination" class="search-input">
+                            <button id="searchbtn" class="btn-success">Search</button>
+                            <button id="clearbtn" class="btn-success">Reset</button>
+                        </div>
+                        <div class="suggestions" style="position: absolute; background-color: white; border: 1px solid #ccc; display: none;"></div>
+                        </li>
+                    </ul>
+                </nav>
+            </header><br>
+
+    <main id="main" class="d-flex justify-content-between">
+        <div><div id="result" class="card"></div></div>
+        
+    </main>
+    <aside class="content">
+        <ul>
+            <li><a href="https://it-it.facebook.com/" class="fa fa-facebook"></a></li>
+            <li><a href="https://x.com/" class="fa fa-twitter"></a></li>
+            <li><a href="https://instagram.com" class="fa fa-instagram"></a></li>
+        </ul>
+    </aside>
+    <script src="./result.js"></script>
+</body>
+</html>
